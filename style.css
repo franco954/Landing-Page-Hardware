@@ -1,0 +1,89 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
+body{
+    font-family: 'Roboto', 'sans-serif';
+}
+
+
+/* logo ico */
+
+
+.ico-logo{
+    color: #2195f3c2;
+    margin: auto;
+    padding-left: 22px;
+    font-size: 4rem;
+}
+
+
+/* navbar */
+
+#nav{
+    background-color: #0e0e0e;
+    color: #ddd;
+}
+
+
+
+/* nav hover */
+
+#nav-ul > li:hover{
+
+    background-color: #2195f354;
+
+}
+
+
+
+
+#container-presentacion{
+    margin: 0;
+    background-image: url('resources/intro.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+
+
+#container-presentacion > div > h1{
+    font-weight: 900;
+    color: #e9edf0;
+}
+
+
+#container-presentacion > div{
+    padding: 30px;
+    background-color: #0006;
+    width: 72%;
+    margin: auto;
+}
+
+#container-presentacion > div > p{
+    font-weight: 600;
+    width: 65%;
+    margin: auto;
+    color: rgb(208, 208, 208);
+}
+
+
+#button-pres{
+    margin-top: 50px;
+}
+
+
+
+/* menu mobile */
+
+
+#mobile-demo{
+    opacity: .83;
+}
+
+#mobile-demo > li > a{
+    color: #2195f3f0;
+    font-weight: 700;
+}
