@@ -27,12 +27,13 @@ main{
 
 .navBar{
     width: 100%;
+    font-weight: 900;
 }
 
 #nav{
     border: 0.5x solid #000;
     background-color: #0e0e0e;
-    color: #ddd;
+    color: #aaa;
 }
 
 
@@ -53,6 +54,25 @@ main{
     width: 100%;
     height: 86vh;
 }
+
+
+@media (max-width: 680px) {
+   #container-presentacion{
+       height: 92vh;
+   }
+   .cartel-presentacion > h1{
+       font-size: 2.2em;
+   }
+   .cartel-presentacion > p{
+    font-size: .9em;
+    }
+    .title-section > h3{
+        font-size: 1.7em;
+    }
+}
+
+
+
 
 
 #container-presentacion > div > h1{
@@ -138,16 +158,6 @@ main{
 
 
 
-
-
-
-
-
-
-
-
-
-
  /* label focus color */
 .input-field input{
     color: #ffffff93 !important;
@@ -187,4 +197,4 @@ main{
 }
 
 
-/* footer */
+/* arrow cards*/
