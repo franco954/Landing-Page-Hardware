@@ -72,6 +72,22 @@ main{
 }
 
 
+@media (max-width: 500px) {
+    #container-presentacion{
+        height: 85vh;
+    }
+    .cartel-presentacion > h1{
+        font-size: 2.6em;
+    }
+    .cartel-presentacion > p{
+     font-size: 1.1em;
+     }
+     .title-section > h3{
+         font-size: 2em;
+     }
+ }
+
+
 
 
 
