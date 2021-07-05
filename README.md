@@ -8,7 +8,9 @@ Proyecto de landing page usando Materialize y consumiendo la api de mapbox para 
 [Sitio web](https://franco954.github.io/Landing-Page-Hardware/) 
 
 
-![](./pag/img1.jpeg =200x)
-![](./pag/img2.jpeg =200x)
-![](./pag/img3.jpeg =200x)
-![](./pag/img4.jpeg =200x)
+
+<img src="pag/img1.jpeg" width="200">
+<img src="pag/img2.jpeg" width="200">
+<img src="pag/img3.jpeg" width="200">
+<img src="pag/img4.jpeg" width="200">
+
