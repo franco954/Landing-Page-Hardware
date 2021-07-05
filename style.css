@@ -136,7 +136,7 @@ main{
     background-color: #0e0e0e;
 }
 
-.seccion-cards > div > div > h3{
+.seccion-cards > div > div > h4{
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 100px;
@@ -197,4 +197,14 @@ main{
 }
 
 
-/* arrow cards*/
+/* maps api */
+
+
+#map{
+    height: 220px;
+}
+
+.ubicacion-title{
+    background-color: #000;
+    padding: 1px;
+}
