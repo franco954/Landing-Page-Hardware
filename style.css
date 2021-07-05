@@ -1,9 +1,8 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 
 
-body{
+*{
     font-family: 'Roboto', 'sans-serif';
 }
 
@@ -19,9 +18,18 @@ body{
 }
 
 
+
+
+
 /* navbar */
 
+
+.navBar{
+    width: 100%;
+}
+
 #nav{
+    border: 0.5x solid #000;
     background-color: #0e0e0e;
     color: #ddd;
 }
@@ -40,12 +48,11 @@ body{
 
 
 #container-presentacion{
-    margin: 0;
     background-image: url('resources/intro.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 90vh;
+    height: 86vh;
 }
 
 
@@ -87,3 +94,42 @@ body{
     color: #2195f3f0;
     font-weight: 700;
 }
+
+
+/* seccion suscripcion */
+.section-suscripcion{
+    width: 100%;
+    background-color: #0e0e0e;
+    color: #2195f354;
+    padding-top: 28px;
+    border: 1px solid #000;
+}
+
+
+ /* label focus color */
+.input-field input[type=text]:focus{
+    color: #2195f393 !important;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 1px 0 0 #ddd;
+}
+
+
+
+/* button suscribirse */
+
+.btn-suscribirse{
+    line-height: 4;
+}
+
+/* servicios */
+
+.card-image img{
+    height: 250px;
+}
+
+
+/* footer */
