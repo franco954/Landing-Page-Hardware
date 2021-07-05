@@ -2,8 +2,9 @@
 
 
 
-*{
+main{
     font-family: 'Roboto', 'sans-serif';
+    background-color: #0e0e0e;
 }
 
 
@@ -43,8 +44,6 @@
     background-color: #2195f354;
 
 }
-
-
 
 
 #container-presentacion{
@@ -106,9 +105,52 @@
 }
 
 
+
+
+/* secciones productos y beneficios */
+
+
+
+.seccion-cards{
+    border-top: 0px solid #000;
+    background-color: #0e0e0e;
+}
+
+.seccion-cards > div > div > h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 100px;
+}
+
+
+/* tarjetas */
+
+
+.tarjetas{
+    background-color: #000 !important;
+}
+
+.tarjetas > .card-content{
+    color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  /* label focus color */
-.input-field input[type=text]:focus{
-    color: #2195f393 !important;
+.input-field input{
+    color: #ffffff93 !important;
 }
 
 /* label underline focus color */
@@ -117,6 +159,13 @@
     box-shadow: 0 1px 0 0 #ddd;
 }
 
+
+/* button general */
+
+.btn{
+    background-color: #48e !important;
+    color: #ddd;
+}
 
 
 /* button suscribirse */
@@ -127,8 +176,14 @@
 
 /* servicios */
 
+.card-title{
+    font-weight: 600 !important;
+    padding-top: 13px !important;
+}
+
 .card-image img{
-    height: 250px;
+    object-fit: cover;
+    height: 230px;
 }
 
 
